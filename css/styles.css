@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+    background-color: #343A40;
+    color: #fff;
+  }
+
+  .imagen {
+    width: 20rem;
+    height: 30rem;
+
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh; /* Altura mínima para centrar el contenido */
+}
+
+.dark-bg {
+    background-color: #000; /* Cambiar el color de fondo a negro o el color oscuro que desees */
+  }
+
+  .navbar-brand-text {
+    font-size: 2.5rem; /* Tamaño de letra deseado, por ejemplo 1.5 rem */
+  }
+  .tex {
+    font-size: 1.3rem; /* Tamaño de letra deseado, por ejemplo 1.5 rem */
+  }
+ 
+  
