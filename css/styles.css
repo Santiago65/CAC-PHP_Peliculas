@@ -8,6 +8,7 @@ body {
     width: 20rem;
     height: 30rem;
     padding: 2%;
+    transition: opacity 0.3s ease-in-out; 
 
   }
 
@@ -29,4 +30,10 @@ body {
     font-size: 1.3rem; /* Tamaño de letra deseado, por ejemplo 1.5 rem */
   }
  
-  
+  .fade-image {
+    transition: opacity 0.3s ease-in-out; /* Transición suave de opacidad */
+}
+
+.imagen:hover {
+    opacity: 0.5; /* Cambia la opacidad al pasar el mouse */
+}
