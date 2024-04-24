@@ -8,6 +8,7 @@ body {
     width: 20rem;
     height: 30rem;
     padding: 2%;
+    margin:  auto;
     transition: opacity 0.3s ease-in-out; 
 
   }
